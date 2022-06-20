@@ -29,7 +29,7 @@ if  __name__== '__main__':
                     myDataStr += tr.get_text()
                 myDataStr=myDataStr[1:]    
                 ItemList=myDataStr.split('\n')
-                states=['31Tamil','20Madhya']
+                states=['gujarat']
                 for item in ItemList[1:36]:
                     dataList=item.split()
                     if dataList[0] in states:
